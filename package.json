@@ -4,7 +4,8 @@
   "description": "For all your n-gram and skip-gram needs 🔠",
   "main": "index.js",
   "scripts": {
-    "test": "ava test.js"
+    "test": "nyc ava test.js",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "author": [
     "Joost Verdoorn <jpverdoorn@gmail.com>",
@@ -22,7 +23,9 @@
     "text analaysis"
   ],
   "devDependencies": {
-    "ava": "^0.19.1"
+    "ava": "^0.19.1",
+    "codecov": "^1.0.1",
+    "nyc": "^6.0.0"
   },
   "repository": {
     "type": "git",

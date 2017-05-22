@@ -1,6 +1,10 @@
 # skipgram
 For all your n-gram and skip-gram needs 🔠
 
+![NPM](https://img.shields.io/npm/v/skipgram.svg)
+![CircleCI](https://img.shields.io/circleci/project/github/knowledge-express/skipgram/master.svg)
+[![Codecov](https://img.shields.io/codecov/c/github/knowledge-express/skipgram.svg)]()
+
 ```
 npm install -g skipgram
 ```
