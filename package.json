@@ -1,0 +1,31 @@
+{
+  "name": "skipgram",
+  "version": "1.0.0",
+  "description": "For all your n-gram and skip-gram needs 🔠",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "author": [
+    "Joost Verdoorn <jpverdoorn@gmail.com>",
+    "Steffan Sluis <steffansluis@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "skipgram",
+    "skip-gram",
+    "ngram",
+    "n-gram",
+    "machine learning",
+    "autocompete",
+    "search",
+    "text analaysis"
+  ],
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowledge-express/skipgram.git"
+  }
+}
